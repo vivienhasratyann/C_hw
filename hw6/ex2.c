@@ -14,7 +14,7 @@ struct Complex add(struct Complex c1, struct Complex c2){
 }
 
 struct Complex mult(struct Complex c1, struct Complex c2){
-    struct Complex result; // յահաաա հիմա գնամ մատանալիզի տետրի հետևից :/// 
+    struct Complex result; // յահաաա հիմա գնամ մատանալիզի տետրի հետևից :// 
     result.real = (c1.real * c2.real) - (c1.img * c2.img);
     result.img = (c1.real * c2.img) + (c1.img * c2.real);
     return result;
